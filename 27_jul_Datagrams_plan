@@ -1,0 +1,24 @@
+
+ECU 1:
+    3 parameters (peripherals)
+    turn Indicators 1Byte : 8Bits : {0x00, 0xFF}
+    head lamps      1Byte : 8Bits : {0x00, 0xFF}
+    stand           1Byte : 8Bits : {0x00, 0xFF}
+    ...
+    [{field 1},{field 2},{field 3}]
+    hex()
+
+    field 1:
+        dict f1 = {
+            "0x00": "OFF",
+            "0x01": "Left",
+            "0x02":"Right",
+            "0x03" : "Fault",
+        }
+    field 2:
+        dict f2 = {
+
+        }
+ECU 2:
+    Skeptical
+    BMS, ESC
