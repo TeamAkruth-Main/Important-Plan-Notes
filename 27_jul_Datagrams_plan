@@ -17,7 +17,17 @@ ECU 1:
         }
     field 2:
         dict f2 = {
-
+            "0x00":"OFF",
+            "0x01":"ON",
+            "0x02":"ON-DRL",
+            "0x03":"ON-LOW-BEAM",
+            "0x04":"ON-HIGHBEAM",
+        }
+    field 3:
+        dict f3{
+            "0x00": "fault",
+            "0x01": "Stand-Up",
+            "0x02": "Stand-Down,
         }
 ECU 2:
     Skeptical
